@@ -75,7 +75,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 😄 Seja um dos contribuidores<br>
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+Quer fazer parte desse projeto? Clique [AQUI](#-contribuindo-para-esse-all-in-one) e leia como contribuir.
 
 ## 📝 Licença
 
