@@ -62,7 +62,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://www.linkedin.com/in/yurylima/" target="_blank">
         <img src=https://media-exp1.licdn.com/dms/image/C4E03AQEX-TUugmJlAA/profile-displayphoto-shrink_400_400/0/1634681320995?e=1646265600&v=beta&t=5Z-OuH8411pjAtZUjdAVsnV2eWEnzu3tF7N42DMvknM width="100px;" alt="Foto do Yury Alencar no LinkedIn"/><br>
         <sub>
           <b>Yury Alencar</b>
