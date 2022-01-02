@@ -22,6 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Exemplos de POST
 - [ ] Exemplos de PUT
 - [ ] Exemplos de PATCH
+- [ ] Criação do arquivo de Requirements
 
 ## 💻 Pré-requisitos
 
@@ -42,6 +43,27 @@ pip install -r requirements.txt
 ```
 
 **_Esse comando somente é necessário caso as bibliotecas não tenham sido instaladas anteriormente de forma global._**
+
+## ☕ Executando os testes nesse All in One
+
+Para executar todos os testes de um diretório e salvar os logs em uma pasta, execute o comando abaixo:
+
+```
+robot -d ./<pasta> <diretório>
+```
+
+
+Para executar todos os testes de um arquivo e salvar os logs em uma pasta, execute o comando abaixo:
+
+```
+robot -d ./<pasta> arquivo.robot
+```
+
+Para executar somente um dos testes de um arquivo e salvar os logs em uma pasta, execute o comando abaixo:
+
+```
+robot -d ./<pasta> -t "Nome do Teste" arquivo.robot
+```
 
 ## 📫 Contribuindo para esse All in One
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
