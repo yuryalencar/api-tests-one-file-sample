@@ -20,7 +20,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Exemplos de GET
 - [x] Exemplos de DELETE
 - [x] Exemplos de POST
-- [ ] Exemplos de PUT
+- [x] Exemplos de PUT
 - [ ] Exemplos de PATCH
 - [ ] Criação do arquivo de Requirements
 

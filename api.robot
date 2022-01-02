@@ -53,3 +53,18 @@ Teste na Requisição POST para o Empregado João (Com id existente)
   &{new_employee}=    Create Dictionary     id=${GET_EMPLOYEE_ID}     name=João da Silva        job=Automation Tester   document=73889385087
   POST                ${URL}/employees      json=${new_employee}      expected_status=400
 
+Teste na Requisição PUT para o Empregado Yury (StatusCode)
+  &{updated_employee}=    Create Dictionary                       name=Yury Alencar Lima      job=Automation   document=73889385087
+  PUT                     ${URL}/employees/${GET_EMPLOYEE_ID}     json=${updated_employee}    expected_status=200
+
+Teste na Requisição PUT para o Empregado Yury (Id outro empregado)
+  &{updated_employee}=    Create Dictionary                       id=${DELETE_EMPLOYEE_ID}    name=Yury Alencar Lima      job=Automation   document=73889385087
+  PUT                     ${URL}/employees/${GET_EMPLOYEE_ID}     json=${updated_employee}    expected_status=400
+
+Teste na Requisição PUT para o Empregado Yury (Id do próprio empregado)
+  &{updated_employee}=    Create Dictionary                       id=${GET_EMPLOYEE_ID}       name=Yury Alencar Lima      job=Automation   document=73889385087
+  PUT                     ${URL}/employees/${GET_EMPLOYEE_ID}     json=${updated_employee}    expected_status=200
+
+Teste na Requisição PUT para o Empregado Yury (Id novo)
+  &{updated_employee}=    Create Dictionary                       id=2000                     name=Yury Alencar Lima      job=Automation   document=73889385087
+  PUT                     ${URL}/employees/${GET_EMPLOYEE_ID}     json=${updated_employee}    expected_status=200
