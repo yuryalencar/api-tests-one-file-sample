@@ -39,3 +39,17 @@ Teste na Requisição DELETE para o Empregado Gustavo (Verificando no GET da lis
   &{employee_dict}=   Create Dictionary     id=${id_number}       name=Gustavo Satheler   job=Full Cycle Lead     document=20874135095
 
   List Should Not Contain Value             ${response.json()}    ${employee_dict}
+
+Teste na Requisição POST para o Empregado João (StatusCode)
+  &{new_employee}=    Create Dictionary     name=João da Silva        job=Automation Tester   document=73889385087
+  POST                ${URL}/employees      json=${new_employee}      expected_status=201
+
+Teste na Requisição POST para o Empregado João (Com id novo)
+  &{new_employee}=    Create Dictionary     id=200                    name=João da Silva        job=Automation Tester   document=73889385087
+  POST                ${URL}/employees      json=${new_employee}      expected_status=201
+
+
+Teste na Requisição POST para o Empregado João (Com id existente)
+  &{new_employee}=    Create Dictionary     id=${GET_EMPLOYEE_ID}     name=João da Silva        job=Automation Tester   document=73889385087
+  POST                ${URL}/employees      json=${new_employee}      expected_status=400
+
