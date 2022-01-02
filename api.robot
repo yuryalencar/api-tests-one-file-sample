@@ -68,3 +68,19 @@ Teste na Requisição PUT para o Empregado Yury (Id do próprio empregado)
 Teste na Requisição PUT para o Empregado Yury (Id novo)
   &{updated_employee}=    Create Dictionary                       id=2000                     name=Yury Alencar Lima      job=Automation   document=73889385087
   PUT                     ${URL}/employees/${GET_EMPLOYEE_ID}     json=${updated_employee}    expected_status=200
+
+Teste na Requisição PATCH para o Empregado Yury (Nome - StatusCode)
+  &{attribute}=           Create Dictionary                       name=Yury Alencar PATCH
+  PATCH                   ${URL}/employees/${GET_EMPLOYEE_ID}     json=${attribute}           expected_status=200
+
+Teste na Requisição PATCH para o Empregado Yury (job - StatusCode)
+  &{attribute}=           Create Dictionary                       job=Automation PATCH
+  PATCH                   ${URL}/employees/${GET_EMPLOYEE_ID}     json=${attribute}           expected_status=200
+
+Teste na Requisição PATCH para o Empregado Yury (document - StatusCode)
+  &{attribute}=           Create Dictionary                       document=73889385087
+  PATCH                   ${URL}/employees/${GET_EMPLOYEE_ID}     json=${attribute}           expected_status=200
+
+Teste na Requisição PATCH para o Empregado Yury (id - StatusCode)
+  &{attribute}=           Create Dictionary                       id=500
+  PATCH                   ${URL}/employees/${GET_EMPLOYEE_ID}     json=${attribute}           expected_status=200

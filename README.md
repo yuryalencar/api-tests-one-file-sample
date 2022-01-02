@@ -21,7 +21,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Exemplos de DELETE
 - [x] Exemplos de POST
 - [x] Exemplos de PUT
-- [ ] Exemplos de PATCH
+- [x] Exemplos de PATCH
 - [ ] Criação do arquivo de Requirements
 
 ## 💻 Pré-requisitos
