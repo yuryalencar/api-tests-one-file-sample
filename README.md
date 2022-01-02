@@ -49,20 +49,20 @@ pip install -r requirements.txt
 Para executar todos os testes de um diretório e salvar os logs em uma pasta, execute o comando abaixo:
 
 ```
-robot -d ./<pasta> <diretório>
+robot -d ./<diretório-log> <diretório>
 ```
 
 
 Para executar todos os testes de um arquivo e salvar os logs em uma pasta, execute o comando abaixo:
 
 ```
-robot -d ./<pasta> arquivo.robot
+robot -d ./<diretório-log> arquivo.robot
 ```
 
 Para executar somente um dos testes de um arquivo e salvar os logs em uma pasta, execute o comando abaixo:
 
 ```
-robot -d ./<pasta> -t "Nome do Teste" arquivo.robot
+robot -d ./<diretório-log> -t "Nome do Teste" arquivo.robot
 ```
 
 ## 📫 Contribuindo para esse All in One
