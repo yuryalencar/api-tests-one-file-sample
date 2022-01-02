@@ -18,7 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Exemplos de Configuração
 - [x] Exemplos de GET
-- [ ] Exemplos de DELETE
+- [x] Exemplos de DELETE
 - [ ] Exemplos de POST
 - [ ] Exemplos de PUT
 - [ ] Exemplos de PATCH
