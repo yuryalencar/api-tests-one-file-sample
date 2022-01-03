@@ -12,9 +12,9 @@
   
 > Automação de testes de API utilizando somente um arquivo. Neste projeto foi utilizado Robot Framework e o HttpRequestsLibrary. 
 
-### Ajustes e melhorias
+### Conteúdo do projeto
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto foi concluído para o curso Robot Framework do Zero to Hero. E contempla os requisitos abaixo:
 
 - [x] Exemplos de Configuração
 - [x] Exemplos de GET
@@ -22,7 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Exemplos de POST
 - [x] Exemplos de PUT
 - [x] Exemplos de PATCH
-- [ ] Criação do arquivo de Requirements
+- [x] Criação do arquivo de Requirements
 
 ## 💻 Pré-requisitos
 
